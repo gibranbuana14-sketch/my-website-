@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: gibranbuana14-sketch/my-website-
+  name: git-gateway
   branch: main
-  base_url: https://decap-cms-oauth-provider.vercel.app
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
