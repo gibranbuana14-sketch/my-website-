@@ -1,0 +1,16 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Halaman Website"
+    files:
+      - label: "Halaman Utama"
+        name: "index"
+        file: "index.html"
+        fields:
+          - {label: "Isi HTML", name: "body", widget: "code", default_language: "html"}
