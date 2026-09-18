@@ -1,9 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: gibranbuana14-sketch/my-website-
   branch: main
+  base_url: https://auth.sveltia.dev
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+media_folder: "manda food/images"
+public_folder: "/images"
 
 collections:
   - name: "pages"
@@ -11,7 +13,6 @@ collections:
     files:
       - label: "Halaman Utama"
         name: "index"
-        file: "index.html"
+        file: "manda food/index.html"
         fields:
           - {label: "Isi HTML", name: "body", widget: "code", default_language: "html"}
-          
